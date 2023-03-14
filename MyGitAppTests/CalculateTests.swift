@@ -1,5 +1,5 @@
 //
-//  MyGitAppTests.swift
+//  CalculateTests.swift
 //  MyGitAppTests
 //
 //  Created by Randy Fong on 3/14/23.
@@ -8,12 +8,10 @@
 import XCTest
 @testable import MyGitApp
 
-final class MyGitAppTests: XCTestCase {
+final class CalculateTests: XCTestCase {
 
-
-    func testExample() throws {
-        let text = "fleas"
-        XCTAssertTrue(Show.myDogHas(text) == "My dog has: \(text)", "'myDogHas' function not returning correct string")
+    func test_add_sumEqualsAddition() throws {
+        XCTAssertEqual(Calculate.add(1, to: 3), 5)
     }
 
     func testPerformanceExample() throws {
