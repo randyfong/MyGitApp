@@ -14,6 +14,7 @@
 		C28E903B29C102FA00E77C17 /* MyGitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E903A29C102FA00E77C17 /* MyGitAppTests.swift */; };
 		C28E904529C102FA00E77C17 /* MyGitAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E904429C102FA00E77C17 /* MyGitAppUITests.swift */; };
 		C28E904729C102FA00E77C17 /* MyGitAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E904629C102FA00E77C17 /* MyGitAppUITestsLaunchTests.swift */; };
+		C28E905429C103A700E77C17 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E905329C103A700E77C17 /* Show.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C28E904029C102FA00E77C17 /* MyGitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28E904429C102FA00E77C17 /* MyGitAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGitAppUITests.swift; sourceTree = "<group>"; };
 		C28E904629C102FA00E77C17 /* MyGitAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGitAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C28E905329C103A700E77C17 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				C28E902929C102F400E77C17 /* MyGitAppApp.swift */,
 				C28E902B29C102F400E77C17 /* ContentView.swift */,
+				C28E905329C103A700E77C17 /* Show.swift */,
 				C28E902D29C102F900E77C17 /* Assets.xcassets */,
 				C28E902F29C102F900E77C17 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28E905429C103A700E77C17 /* Show.swift in Sources */,
 				C28E902C29C102F400E77C17 /* ContentView.swift in Sources */,
 				C28E902A29C102F400E77C17 /* MyGitAppApp.swift in Sources */,
 			);
