@@ -13,7 +13,7 @@ final class MyGitAppTests: XCTestCase {
 
     func testExample() throws {
         let text = "fleas"
-        XCTAssertTrue(Show.myDogHas(text) == "And Not My dog has: \(text)", "'myDogHas' function not returning correct string")
+        XCTAssertTrue(Show.myDogHas(text) == "My dog has: \(text)", "'myDogHas' function not returning correct string")
     }
 
     func testPerformanceExample() throws {
