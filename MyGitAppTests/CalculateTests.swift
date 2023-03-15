@@ -10,8 +10,16 @@ import XCTest
 
 final class CalculateTests: XCTestCase {
 
-    func test_add_sumEqualsAddition() throws {
+    func test_add_1_sumEqualsAddition() throws {
         XCTAssertEqual(Calculate.add(1, to: 3), 5)
+    }
+    
+    func test_add_2_sumEqualsSubstraction() throws {
+        XCTAssertEqual(Calculate.add(-1, to: 3), 5)
+    }
+    
+    func test_add_3_sumToNegativeNumber() throws {
+        XCTAssertEqual(Calculate.add(1, to: -3), 5)
     }
 
     func testPerformanceExample() throws {
