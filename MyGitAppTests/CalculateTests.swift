@@ -22,7 +22,7 @@ final class CalculateTests: XCTestCase {
         XCTAssertEqual(Calculate.add(1, to: -3), 5)
     }
 
-    func testPerformanceExample() throws {
+    func test_add_4_performanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
