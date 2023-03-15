@@ -15,7 +15,7 @@ final class CalculateTests: XCTestCase {
     }
     
     func test_add_2_sumEqualsSubstraction() throws {
-        let a = 5 / 3
+        let _ = 5 / 3
         XCTAssertEqual(Calculate.add(-1, to: 3), 2)
     }
     
@@ -24,8 +24,8 @@ final class CalculateTests: XCTestCase {
     }
     
     func test_add_4_sumToNegativeNumber() throws {
-        for i in 0...100 {
-            let a = "Hello"
+        for _ in 0...100 {
+            let _ = "Hello"
         }
         XCTAssertEqual(Calculate.add(1, to: -3), -2)
     }
