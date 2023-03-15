@@ -11,16 +11,9 @@ import XCTest
 final class ShowTests: XCTestCase {
 
 
-    func testExample() throws {
+    func test_1_showMyDogText() throws {
         let text = "fleas"
         XCTAssertTrue(Show.myDogHas(text) == "My dog has: \(text)", "'myDogHas' function not returning correct string")
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
     }
 
 }
